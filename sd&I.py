@@ -6,18 +6,18 @@ import time
 import streamlit as st
 
 # Azure OpenAI API settings
-openai_api_key = "fbc23483d6de43b1a35122b379c48bd4"  # Directly including your API key
-openai_api_base = "https://vthackathontest1.openai.azure.com/"
-api_version_translation = "2024-08-01-preview"
-translation_deployment_name = "gpt-4o"
-embedding_deployment_name = "embedding-model-test"
+openai_api_key = ""  # Directly including your API key
+openai_api_base = ""
+api_version_translation = ""
+translation_deployment_name = ""
+embedding_deployment_name = ""
 
 import openai
 # Set up OpenAI API configuration
-openai.api_key = "fbc23483d6de43b1a35122b379c48bd4"
-openai.api_base = "https://vthackathontest1.openai.azure.com/"
-api_version_translation = "2024-08-01-preview"
-translation_deployment_name = "gpt-4o"
+openai.api_key = ""
+openai.api_base = ""
+api_version_translation = ""
+translation_deployment_name = ""
 
 # Translation function with error handling
 def translate_text(text, retries=3):
